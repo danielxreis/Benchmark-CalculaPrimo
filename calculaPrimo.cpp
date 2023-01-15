@@ -29,7 +29,7 @@ void print(std::vector<int> const &input) {
 int main () {
     vector<int> lista_primos; 
 
-    for(int x = 1; x < 1000000; x++) {
+    for(int x = 10000; x < 20000; x++) {
         std::cout << "\nChecando " << x;
         if(calculaPrimo(x)) {
             std::cout << "\n" << x << " é primo.\n";

@@ -13,7 +13,7 @@ def calculaPrimo(numero):
     return primo
 
 listaPrimos = []
-for y in range(1, 100000):
+for y in range(10000, 20000):
     print(f"Checando {y}...")
     if calculaPrimo(y):
         print(f"{y} é primo")

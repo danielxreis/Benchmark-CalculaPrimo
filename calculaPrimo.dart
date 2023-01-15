@@ -15,7 +15,7 @@ calculaPrimo(numero) {
 
 main() {
     List listaPrimos = [];
-    for(int x = 1; x < 1000000; x++) {
+    for(int x = 10000; x < 20000; x++) {
         print("Checando $x");
         if(calculaPrimo(x)) {
             listaPrimos.add(x);

@@ -17,3 +17,5 @@ No fim de cada rodada, o próprio IDE retorna o tempo de execução do scripts e
 - Até onde vale o custo de desempenho x benefício de legibilidade?
 - O fato das variáveis serem definidas dinamicamente em Python e estritas em Dart e C++ é o que garante desempenho superior em maior quantidade de números?
 - Se forem definidos os tipos de variáveis em Python, vamos obter desempenho?
+  
+- Se a faixa for entre 100.000 e 110.000, o desempenho do Python continuará bom?
